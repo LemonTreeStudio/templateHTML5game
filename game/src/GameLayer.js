@@ -7,7 +7,7 @@ var GameLayer = cc.Layer.extend({
 
 		this.screenSize = cc.Director.getInstance().getWinSize();
 
-		
+		//
 
 		return true;
 	},

@@ -35,13 +35,9 @@
         tag:'gameCanvas', //the dom element to run cocos2d on
         engineDir:'cocos2d/',
         appFiles:[
-            'Game/src/Resource.js',
-            // 'LD48/src/SysMenu.js',
-            // 'LD48/src/GameField.js',
+            'game/src/Resource.js',
             // 'box2d/GB2ShapeCache.js',
-            // 'LD48/src/BlackAndWhite.js',
-            'Game/src/GameLayer.js',
-            // 'LD48/src/IntroFalling.js'
+            'game/src/GameLayer.js',
         ]
     };
     window.addEventListener('DOMContentLoaded', function () {
